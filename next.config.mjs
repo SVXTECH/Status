@@ -23,4 +23,10 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = {
+  experimental: {
+    serverActions: true,
+  },
+};
+
 export default bundleAnalyzer(withPWA(nextConfig));
